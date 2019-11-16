@@ -70,8 +70,17 @@ def profile_data(df, file_name):
 #df = encode_booleans(df, None)
 #df = impute_missing_vals(df, './data/home_insurance_encoded_imputed.csv')
 
-df = read_ins_file('./data/home_insurance_encoded_imputed.csv')
-profile_data(df, 'home_insurance_encoded_imputed_profile.html')
+#df = read_ins_file('./data/home_insurance_encoded_imputed.csv')
+#profile_data(df, 'home_insurance_encoded_imputed_profile.html')
+
+"""
+25 variable (0-24) before gens. 30 after (25-54)
+P1_EMP_STATUS P1_MAR_STATUS OCC_STATUS PAYMENT_METHOD POL_STATUS
+1. Encode the above
+2. Drop fields that would not be part of this, like policy state
+3. Split the fields between those that are answered and those that are filled in. 50/50 - be careful about
+the gen fields, they should be evenly distributed between answered and filled in.
+"""
 
 
 
