@@ -28,7 +28,6 @@ X_train, X_test, y_train, y_test = train_test_split(
     X, y, random_state=4)
 
 max_depth = 30
-#regr_multirf = MultiOutputRegressor(DecisionTreeRegressor(random_state=0))
 regr_multirf = MultiOutputRegressor(RandomForestRegressor(n_estimators=100,
                                                           max_depth=max_depth,
                                                           random_state=0))
