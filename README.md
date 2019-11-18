@@ -7,7 +7,7 @@ The data for this project came from Kaggle: https://www.kaggle.com/ycanario/home
 These elements include all the elements from the Kaggle dataset, some of which are removed because they wouldn't be known at quote or because they had too many missing values.
 
 ## Variables Description
-* QUOTE_DATE: Day where the quotation was made
+* ~~QUOTE_DATE: Day where the quotation was made
 * COVER_START: Beginning of the cover payment
 * CLAIM3YEARS: 3 last years loss
 * P1_EMP_STATUS: Client's professional status
@@ -26,7 +26,7 @@ These elements include all the elements from the Kaggle dataset, some of which a
 * BUILDINGS_COVER: Cover - Building indicator
 * SPEC_SUM_INSURED: Assured Sum - Valuable Personal Property
 * SPEC_ITEM_PREM: Premium - Personal valuable items
-* UNSPEC_HRP_PREM: Unknown
+* ~~UNSPEC_HRP_PREM: Unknown
 * P1_DOB: Date of birth of the client
 * P1_MAR_STATUS: Marital status of the client
 * P1_POLICY_REFUSED: Police Emission Denial Indicator
@@ -51,24 +51,24 @@ These elements include all the elements from the Kaggle dataset, some of which a
 * CAMPAIGN_DESC: Description of the marketing campaign
 * PAYMENT_METHOD: Method of payment
 * PAYMENT_FREQUENCY: Frequency of payment
-* LEGAL_ADDON_PRE_REN: Option "Legal Fees" included before 1st renewal
-* LEGAL_ADDON_POST_REN: Option "Legal Fees" included after 1st renewal
-* HOME_EM_ADDON_PRE_REN: "Emergencies" option included before 1st renewal
-* HOME_EM_ADDON_POST_REN: Option "Emergencies" included after 1st renewal
-* GARDEN_ADDON_PRE_REN: Option "Gardens" included before 1st renewal
-* GARDEN_ADDON_POST_REN: Option "Gardens" included after 1st renewal
-* KEYCARE_ADDON_PRE_REN: Option "Replacement of keys" included before 1st renewal
-* KEYCARE_ADDON_POST_REN: Option "Replacement of keys" included after 1st renewal
-* HP1_ADDON_PRE_REN: Option "HP1" included before 1st renewal
-* HP1_ADDON_POST_REN: Option "HP1" included after 1st renewal
-* HP2_ADDON_PRE_REN: Option "HP2" included before 1st renewal
-* HP2_ADDON_POST_REN: Option "HP2" included afterrenewal
-* HP3_ADDON_PRE_REN: Option "HP3" included before 1st renewal
-* HP3_ADDON_POST_REN: Option "HP3" included after renewal
-* MTA_FLAG: Mid-Term Adjustment indicator
-* MTA_FAP: Bonus up to date of Adjustment
-* MTA_APRP: Adjustment of the premium for Mid-Term Adjustmen
-* MTA_DATE: Date of Mid-Term Adjustment
+* ~~LEGAL_ADDON_PRE_REN: Option "Legal Fees" included before 1st renewal
+* ~~LEGAL_ADDON_POST_REN: Option "Legal Fees" included after 1st renewal
+* ~~HOME_EM_ADDON_PRE_REN: "Emergencies" option included before 1st renewal
+* ~~HOME_EM_ADDON_POST_REN: Option "Emergencies" included after 1st renewal
+* ~~GARDEN_ADDON_PRE_REN: Option "Gardens" included before 1st renewal
+* ~~GARDEN_ADDON_POST_REN: Option "Gardens" included after 1st renewal
+* ~~KEYCARE_ADDON_PRE_REN: Option "Replacement of keys" included before 1st renewal
+* ~~KEYCARE_ADDON_POST_REN: Option "Replacement of keys" included after 1st renewal
+* ~~HP1_ADDON_PRE_REN: Option "HP1" included before 1st renewal
+* ~~HP1_ADDON_POST_REN: Option "HP1" included after 1st renewal
+* ~~HP2_ADDON_PRE_REN: Option "HP2" included before 1st renewal
+* ~~HP2_ADDON_POST_REN: Option "HP2" included afterrenewal
+* ~~HP3_ADDON_PRE_REN: Option "HP3" included before 1st renewal
+* ~~HP3_ADDON_POST_REN: Option "HP3" included after renewal
+* ~~MTA_FLAG: Mid-Term Adjustment indicator
+* ~~MTA_FAP: Bonus up to date of Adjustment
+* ~~MTA_APRP: Adjustment of the premium for Mid-Term Adjustmen
+* ~~MTA_DATE: Date of Mid-Term Adjustment
 * LAST_ANN_PREM_GROSS: Premium - Total for the previous year
 * POL_STATUS: Police status
 * Police: Police number
