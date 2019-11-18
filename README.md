@@ -72,5 +72,5 @@ The bold features are those I'm going to default (i.e., targets).
 * ~~MTA_APRP: Adjustment of the premium for Mid-Term Adjustmen~~
 * ~~MTA_DATE: Date of Mid-Term Adjustment~~
 * LAST_ANN_PREM_GROSS: Premium - Total for the previous year
-* **POL_STATUS: Police status**
+* ~~POL_STATUS: Police status~~ (This is actually policy, not police, status.)
 * ~~Police: Police number~~ (This features was not present.)
