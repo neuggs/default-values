@@ -9,7 +9,7 @@ All the EDA and cleanup is in the Python file `eda.py`. There you will find how 
 ## Main Code
 The main code is contained within `default_values.ipynb`, along with documentation on the process used to create the multi-target predictive model.
 
-# Data Elements
+## Data Elements
 These elements include all the elements from the Kaggle dataset, some of which are removed because they wouldn't be known at quote or because they had too many missing values.
 
 The bold features are those I'm going to default (i.e., targets).
