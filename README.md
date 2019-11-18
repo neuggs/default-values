@@ -7,7 +7,7 @@ The data for this project came from Kaggle: https://www.kaggle.com/ycanario/home
 These elements include all the elements from the Kaggle dataset, some of which are removed because they wouldn't be known at quote or because they had too many missing values.
 
 ## Variables Description
-* ~~QUOTE_DATE: Day where the quotation was made
+* ~~QUOTE_DATE: Day where the quotation was made~~
 * COVER_START: Beginning of the cover payment
 * CLAIM3YEARS: 3 last years loss
 * P1_EMP_STATUS: Client's professional status
