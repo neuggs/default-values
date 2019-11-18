@@ -6,6 +6,8 @@ The data for this project came from Kaggle: https://www.kaggle.com/ycanario/home
 # Data Elements
 These elements include all the elements from the Kaggle dataset, some of which are removed because they wouldn't be known at quote or because they had too many missing values.
 
+The bold features are those I'm going to default (i.e., targets).
+
 ## Variables Description
 * ~~QUOTE_DATE: Day where the quotation was made~~
 * COVER_START: Beginning of the cover payment
@@ -15,13 +17,13 @@ These elements include all the elements from the Kaggle dataset, some of which a
 * BUS_USE: Commercial use indicator
 * CLERICAL: Administration office usage indicator
 * AD_BUILDINGS: Building coverage - Self damage
-* RISK_RATED_AREA_B: Geographical Classification of Risk - Building
-* SUM_INSURED_BUILDINGS: Assured Sum - Building
-* NCD_GRANTED_YEARS_B: Bonus Malus - Building
+* **RISK_RATED_AREA_B: Geographical Classification of Risk - Building**
+* **SUM_INSURED_BUILDINGS: Assured Sum - Building**
+* **NCD_GRANTED_YEARS_B: Bonus Malus - Building**
 * AD_CONTENTS: Coverage of personal items - Self Damage
-* RISK_RATED_AREA_C: Geographical Classification of Risk - Personal Objects
+* **RISK_RATED_AREA_C: Geographical Classification of Risk - Personal Objects**
 * SUM_INSURED_CONTENTS: Assured Sum - Personal Items
-* NCD_GRANTED_YEARS_C: Malus Bonus - Personal Items
+* **NCD_GRANTED_YEARS_C: Malus Bonus - Personal Items**
 * CONTENTS_COVER: Coverage - Personal Objects indicator
 * BUILDINGS_COVER: Cover - Building indicator
 * SPEC_SUM_INSURED: Assured Sum - Valuable Personal Property
@@ -29,24 +31,24 @@ These elements include all the elements from the Kaggle dataset, some of which a
 * ~~UNSPEC_HRP_PREM: Unknown~~
 * P1_DOB: Date of birth of the client
 * P1_MAR_STATUS: Marital status of the client
-* P1_POLICY_REFUSED: Police Emission Denial Indicator
+* **P1_POLICY_REFUSED: Police Emission Denial Indicator**
 * P1_SEX: customer sex
-* APPR_ALARM: Appropriate alarm
-* APPR_LOCKS: Appropriate lock
+* **APPR_ALARM: Appropriate alarm**
+* **APPR_LOCKS: Appropriate lock**
 * BEDROOMS: Number of bedrooms
-* ROOF_CONSTRUCTION: Code of the type of construction of the roof
-* WALL_CONSTRUCTION: Code of the type of wall construction
-* FLOODING: House susceptible to floods
-* LISTED: National Heritage Building
+* **ROOF_CONSTRUCTION: Code of the type of construction of the roof**
+* **WALL_CONSTRUCTION: Code of the type of wall construction**
+* **FLOODING: House susceptible to floods**
+* **LISTED: National Heritage Building**
 * MAX_DAYS_UNOCC: Number of days unoccupied
-* NEIGH_WATCH: Vigils of proximity present
+* **NEIGH_WATCH: Vigils of proximity present**
 * OCC_STATUS: Occupancy status
-* OWNERSHIP_TYPE: Type of membership
+* **OWNERSHIP_TYPE: Type of membership**
 * PAYING_GUESTS: Presence of paying guests
 * PROP_TYPE: Type of property
-* SAFE_INSTALLED: Safe installs
-* SEC_DISC_REQ: Reduction of premium for security
-* SUBSIDENCE: Subsidence indicator (relative downwards motion of the surface )
+* **SAFE_INSTALLED: Safe installs**
+* **SEC_DISC_REQ: Reduction of premium for security**
+* **SUBSIDENCE: Subsidence indicator (relative downwards motion of the surface )**
 * YEARBUILT: Year of construction
 * CAMPAIGN_DESC: Description of the marketing campaign
 * PAYMENT_METHOD: Method of payment
@@ -70,5 +72,5 @@ These elements include all the elements from the Kaggle dataset, some of which a
 * ~~MTA_APRP: Adjustment of the premium for Mid-Term Adjustmen~~
 * ~~MTA_DATE: Date of Mid-Term Adjustment~~
 * LAST_ANN_PREM_GROSS: Premium - Total for the previous year
-* POL_STATUS: Police status
-* Police: Police number
+* **POL_STATUS: Police status**
+* **Police: Police number**
