@@ -55,6 +55,19 @@ def encode_booleans(df, file_name):
     else:
         return df
 
+def ohe(df, file_name):
+    others = ['P1_EMP_STATUS', 'P1_MAR_STATUS', 'OCC_STATUS', 'PAYMENT_METHOD', 'POL_STATUS']
+
+    for feature in others:
+        df = pd.concat([df,pd.get_dummies(df[feature], prefix=feature)],axis=1)
+        # now drop the field, it's no longer needed
+        df.drop([feature],axis=1, inplace=True)
+
+    if file_name != None:
+        df.to_csv(file_name, index=False)
+
+    return df
+
 def profile_data(df, file_name):
     print('Profiling the data...')
     profile = df.profile_report(title='Pandas Profiling Report')
@@ -73,14 +86,9 @@ def profile_data(df, file_name):
 #df = read_ins_file('./data/home_insurance_encoded_imputed.csv')
 #profile_data(df, 'home_insurance_encoded_imputed_profile.html')
 
-"""
-25 variable (0-24) before gens. 30 after (25-54)
-P1_EMP_STATUS P1_MAR_STATUS OCC_STATUS PAYMENT_METHOD POL_STATUS
-1. Encode the above
-2. Drop fields that would not be part of this, like policy state
-3. Split the fields between those that are answered and those that are filled in. 50/50 - be careful about
-the gen fields, they should be evenly distributed between answered and filled in.
-"""
+# Finish encoding
+df = read_ins_file('./data/home_insurance_encoded_imputed.csv')
+df = ohe(df, './data/home_insurance_final.csv')
 
 
 
