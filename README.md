@@ -7,7 +7,7 @@ The data for this project came from Kaggle: https://www.kaggle.com/ycanario/home
 All the EDA and cleanup is in the Python file `eda.py`. There you will find how the original data set is scrubbed and pruned to get to the final `.csv`, which is important at the start of the Jupyter Notebook.
 
 ## Main Code
-The main code is contained within `default_values.ipynb`, along with documentation on the process used to create the multi-target predictive model.d
+The main code is contained within `default_values.ipynb`, along with documentation on the process used to create the multi-target predictive model.
 
 # Data Elements
 These elements include all the elements from the Kaggle dataset, some of which are removed because they wouldn't be known at quote or because they had too many missing values.
