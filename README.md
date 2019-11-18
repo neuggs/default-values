@@ -73,4 +73,4 @@ The bold features are those I'm going to default (i.e., targets).
 * ~~MTA_DATE: Date of Mid-Term Adjustment~~
 * LAST_ANN_PREM_GROSS: Premium - Total for the previous year
 * **POL_STATUS: Police status**
-* **Police: Police number**
+* ~~Police: Police number~~ (This features was not present.)
