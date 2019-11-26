@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82366379-28ef-4861-9423-f825d4b0ae08" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/home_insurance_encoded_imputed.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/home_insurance_final.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/home_insurance_final_small.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/home_insurance_rem_null.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/edw.py" beforeDir="false" afterPath="$PROJECT_DIR$/eda.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi-output_dt.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi-output_rf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/home_insurance_encoded_imputed_profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile/home_insurance_profile.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +23,12 @@
   <component name="ProjectId" id="1TiTSyOmOQwWUofhUrNEbYcn5Me" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\neugg\OneDrive\Documents\GitHub\default-values" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\neugg\OneDrive\Documents\GitHub\default-values\profile" />
     </key>
